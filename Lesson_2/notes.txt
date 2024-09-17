@@ -1,0 +1,14 @@
+using lecture_basic_2.pdf ../cmepda/slides/pdf/lecture_basic_2.pdf
+-python è tipizzato, spesso il tipo è determinato autonomamente dall'interprete, e il tipo di una variabile può cambiare (è una cosa che si paga da altre parti)
+-la tupla a differenza della lista è immutabile, non posso assegnarne nuovi valori, e non posso aggiungerne. Per questo motivo la tupla è hashabile, la lista no
+-i set sono container (anche eterogenei) in cui non ci sono ripetizioni.
+-le stringhe sono container immutabili, questo è essenziale perché il dizionario fa l'hash delle stringhe e in questo modo ne determina la posizione in memoria.
+-l'addizione di stringhe ha una complessità quadratica
+-the f string requires python >=3.6
+-The keys of a dictionary has to be immutable! so numbers, tuples and strings. Note: 3 and 3. are two different things, but have the same hash, so are the same key
+-nella rappresentazione degli interi usa tanti bit quanto servono per gli interi, 
+
+using lecture_basic_3.pdf ../cmepda/slides/pdf/lecture_basic_3.pdf
+- dir(math) mi mostra tutta la roba dentro math
+- $PYTHONPATH è la varibile d'ambiente che controlla dove cercare i moduli. serve anche un __init__.py
+- loguru package can be interesting over logging
