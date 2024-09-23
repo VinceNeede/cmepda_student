@@ -1,0 +1,12 @@
+Lectures_basic_4
+-An algorithm is a sequence of instructions to perform a computation
+-complexity of algorithms
+Example sequential vs binary search in a ordered list:
+-- sequential:  best case:      1
+                worst case:     N
+                average case:   N/2
+-- binary: start from the middle and consider the fact that the list is ordered, then bisect again
+                best case:      1
+                worst case:     log_2 N
+                average case:   O(log_2 N)
+Convention: if a variable has the same name of a built in function, add an underscore at the end
