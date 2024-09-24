@@ -1,0 +1,23 @@
+using lecture basic 5
+OOP introduction
+-objects have:
+                State -> data (attributes)
+                Behavior -> functions (methods)
+- class vs object: class is a blueprint (progetto, descrizione di come strutturare i dati) for creating objects. An object is a concrete realization of a class
+- Convection: attributes defined outside of methods are written all capitals. They can be changed in subclasses like any other method
+- Encapsulation: the state of the object should only be accessed and altered through its publicly exposed interface
+Example:
+def __init__(self, owner):
+""" Class constructor"""
+# Single underscore - tells the user he shouldn’t access the variable
+# directly outside the class
+self._model = ’Sv32X-553T’
+# Double underscore - python will prepend _Television to the name
+ self.__owner = owner       # tv._Television__owner
+
+-composition: instead of inheritance, I create an attribute that is an instance of the "parent" class: great example /home/vince/Unipi/Bayesian Theory/Matching Filter/.venv/lib/python3.10/site-packages/bilby/core/utils/introspection.py PropertyAccessory, used by /home/vince/Unipi/Bayesian Theory/Matching Filter/.venv/lib/python3.10/site-packages/bilby/gw/detector/interferometer.py
+
+using lecture basic 6
+-How is all of this possible? duck typing: non ho idea di cosa sia a, voglio fare abs? faccio abs(a) e vedo se a.__abs__ è definito. Se un'operazione la posso fare su un determinato oggetto è definito in runtime (a differenza per esempio di c++)
+
+Next time: assigment_basic_4.txt: ProbabilityDensityFunction class (wrong we have to do numpy before)
