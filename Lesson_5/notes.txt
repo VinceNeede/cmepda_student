@@ -1,0 +1,4 @@
+using lecture basic 7: numpy and scipy
+-l'avere gli ndarray contingui è legato al fatto che sono una collezione di elementi omogenei e quindi so la loro dimensione a priori.
+-Broadcasting di numpy: operazioni con array di dimensioni diverse
+-in python l'assegnazione (=) è un riferimento non una copia

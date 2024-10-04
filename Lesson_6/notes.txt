@@ -1,0 +1,6 @@
+using lecture advanced 1
+unit testing and static analysis 
+- assert: built in function: assert True doesn't do anything, assert False will close the program and return an error.
+- usare pytest, usa delle classi
+- pylint analizza la sintassi
+- Sphinx creates the documentation from the docstring
